@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class ballscript : MonoBehaviour
 {
-	public int speed=20;
+	public int speed=10;
+	public Rigidbody2D sesuatu;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("hello world!");
-        GetComponent<Rigidbody2D>().velocity = new Vector2(2,-2) * speed;
+        sesuatu.velocity = new Vector2(-1,-1) *speed;
     }
 
     // Update is called once per frame
