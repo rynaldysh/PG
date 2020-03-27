@@ -56,6 +56,7 @@
      <Compile Include="Assets\ballscript.cs" />
      <Compile Include="Assets\movementkanan.cs" />
      <Compile Include="Assets\movementkiri.cs" />
+     <Compile Include="Assets\TimerScript.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/tugas uii/Semester 4/PG/gim/COBA 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
