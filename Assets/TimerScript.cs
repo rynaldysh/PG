@@ -25,5 +25,6 @@ public class TimerScript : MonoBehaviour
     	counter -= 1;
     	timerText.text = counter.ToString();
         }	
+        timerText.text = "GAME OVER!";
     }
 }
