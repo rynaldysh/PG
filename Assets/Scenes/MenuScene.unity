@@ -193,7 +193,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 177676928}
-        m_MethodName: labuh
+        m_MethodName: Labuh
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

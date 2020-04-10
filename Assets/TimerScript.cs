@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
@@ -20,11 +21,12 @@ public class TimerScript : MonoBehaviour
         
     }
     IEnumerator hitungmundur(){
-    	while(counter > 0){
+    while(counter > 0){
     	yield return new WaitForSeconds(1);
     	counter -= 1;
     	timerText.text = counter.ToString();
         }	
+        SceneManager.LoadScene("GameOverScene");
         timerText.text = "GAME OVER!";
     }
 }

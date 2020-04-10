@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayScript : MonoBehaviour
 {
-    public void labuh(){
-        SceneManager.LoadScene("hasilCB1");
+    public void Labuh(){
+        SceneManager.LoadScene("HasilScene");
     }
 }
