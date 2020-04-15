@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b87385247aeb624f8b0a01beaf7cc88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 30
 --- !u!1 &676982260
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b79ce2b9a691c42b7fe51d0acb816e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 30
 --- !u!1 &1579991738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,15 +1245,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5115620813744178760, guid: 2cc7c8b4ad3655c42928ed8ad594b7bc,
+        type: 3}
+      propertyPath: speed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5115620813744178763, guid: 2cc7c8b4ad3655c42928ed8ad594b7bc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.8
+      value: -15.9
       objectReference: {fileID: 0}
     - target: {fileID: 5115620813744178763, guid: 2cc7c8b4ad3655c42928ed8ad594b7bc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.24
+      value: 5.73
       objectReference: {fileID: 0}
     - target: {fileID: 5115620813744178763, guid: 2cc7c8b4ad3655c42928ed8ad594b7bc,
         type: 3}
