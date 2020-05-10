@@ -8,6 +8,7 @@ public class ballscript : MonoBehaviour
 	public Rigidbody2D sesuatu;
     public GameObject masterScript;
     public Animator animtr;
+    public AudioSource hitEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,8 +31,12 @@ public class ballscript : MonoBehaviour
 }
  void OnCollisionEnter2D(Collision2D other){
     	if(other.collider.name=="kanan" || other.collider.name=="kiri"){            
+            masterScript.GetComponent<ScoringScript>().UpdateScore(other.collider.name);
             StartCoroutine(jeda()); //untuk pindah ke tengah
     	}
+        if(other.collider.tag=="Player"){
+            hitEffect.Play();
+        }
     }
     IEnumerator jeda(){
         sesuatu.velocity = Vector2.zero; //menghentikan bola

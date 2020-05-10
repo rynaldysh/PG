@@ -54,9 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ballscript.cs" />
+     <Compile Include="Assets\BGMusicScript.cs" />
      <Compile Include="Assets\movementkanan.cs" />
      <Compile Include="Assets\movementkiri.cs" />
      <Compile Include="Assets\PlayScript.cs" />
+     <Compile Include="Assets\ScoringScript.cs" />
      <Compile Include="Assets\TimerScript.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -76,6 +78,15 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>E:/tugas uii/Semester 4/PG/gim/COBA 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>E:/tugas uii/Semester 4/PG/gim/COBA 1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>E:/tugas uii/Semester 4/PG/gim/COBA 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>E:/tugas uii/Semester 4/PG/gim/COBA 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
