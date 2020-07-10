@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class PlayScript : MonoBehaviour
 {
     public void Labuh(){
-        SceneManager.LoadScene("HasilScene");
+        SceneManager.LoadScene("GameScene");
     }
 }
